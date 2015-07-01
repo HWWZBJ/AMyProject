@@ -63,7 +63,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.myproject.ui.AtyButterfly"
+            android:name="com.myproject.ui.AtyToggleView"
             android:screenOrientation="portrait" >
         </activity>
     </application>
