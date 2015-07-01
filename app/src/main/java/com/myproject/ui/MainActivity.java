@@ -26,7 +26,7 @@ public class MainActivity extends ListActivity {
 		adapter.add(new ListCellData(this, "圆形波纹", new Intent(this, AtyCircleWave.class)));
 		adapter.add(new ListCellData(this, "蝴蝶动画", new Intent(this, AtyButterfly.class)));
 		adapter.add(new ListCellData(this, "手电筒", new Intent(this, AtyButterfly.class)));
-		
+
 		// adapter.add(new ListCellData(this, "侧滑页", new Intent(this,
 		// PageSlideAty.class)));
 	}
