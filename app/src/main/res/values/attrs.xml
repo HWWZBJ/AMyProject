@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyView">
+        <attr name="textColor" format="color"></attr>
+        <attr name="textSize" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="ClockView">
+        <attr name="clockColor" format="color" />
+        <attr name="visible" format="boolean" />
+        <attr name="timeZone" format="dimension">
+            <enum name="londan" value="0" />
+            <enum name="beijing" value="8" />
+            <enum name="newyork" value="20" />
+        </attr>
+    </declare-styleable>
+
+</resources>

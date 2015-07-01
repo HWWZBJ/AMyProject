@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.myproject.ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myproject.ui.CustomViewAty"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.myproject.ui.RobotViewAty"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.myproject.ui.ClockViewAty"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.myproject.ui.PageSlideAty"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.myproject.ui.CountdownTimerAty"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.myproject.ui.HorizontalGridView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.myproject.ui.AtyBlurEffect"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.myproject.ui.AtyRotatePic"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.myproject.ui.AtyCircleWave"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.myproject.ui.AtyButterfly"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.myproject.ui.AtyButterfly"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

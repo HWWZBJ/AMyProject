@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageSwitcher
+        android:id="@+id/image_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" >
+    </ImageSwitcher>
+
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <com.myproject.view.layout.HSVLayout
+            android:id="@+id/move_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+
+</LinearLayout>

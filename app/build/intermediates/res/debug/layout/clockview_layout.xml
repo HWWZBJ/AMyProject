@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.myproject"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.myproject.view.ClockView
+        android:id="@+id/clockView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:clockColor="#000000"
+        app:timeZone="beijing"
+        app:visible="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="OnStart"
+            android:text="开始" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="OnReset"
+            android:text="重置" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="OnStop"
+            android:text="停止" />
+    </LinearLayout>
+
+    <!-- <com.myproject.view.ClockView -->
+    <!-- android:id="@+id/joydaoClock" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:timeZone="beijing" -->
+    <!-- android:visible="false" /> -->
+
+</LinearLayout><!-- From: file:/E:/studio_work/studio2/AMyProject/app/src/main/res/layout/clockview_layout.xml -->
