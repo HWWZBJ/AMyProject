@@ -30,7 +30,6 @@ public class ToggleView extends View {
         //自定义属性的命名空间
         namespace = "http://schemas.android.com/apk/res/com.myproject";
         //取出自定义的属性
-
         //1、当前的状态
         currentToggleState = attrs.getAttributeBooleanValue(namespace, "currentState", false);
         //2、取出背景图片的id
