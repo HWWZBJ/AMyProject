@@ -27,6 +27,8 @@ public class MainActivity extends ListActivity {
 		adapter.add(new ListCellData(this, "蝴蝶动画", new Intent(this, AtyButterfly.class)));
 		adapter.add(new ListCellData(this, "手电筒", new Intent(this, AtyButterfly.class)));
 		adapter.add(new ListCellData(this, "自定义开关", new Intent(this, AtyToggleView.class)));
+		adapter.add(new ListCellData(this, "文件的写入和读取", new Intent(this, AtyOutputStream.class)));
+		adapter.add(new ListCellData(this, "查找联系人", new Intent(this, AtyContactTest.class)));
 
 		// adapter.add(new ListCellData(this, "侧滑页", new Intent(this,
 		// PageSlideAty.class)));
