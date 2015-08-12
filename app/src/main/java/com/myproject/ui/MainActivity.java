@@ -29,7 +29,12 @@ public class MainActivity extends ListActivity {
 		adapter.add(new ListCellData(this, "自定义开关", new Intent(this, AtyToggleView.class)));
 		adapter.add(new ListCellData(this, "文件的写入和读取", new Intent(this, AtyOutputStream.class)));
 		adapter.add(new ListCellData(this, "查找联系人", new Intent(this, AtyContactTest.class)));
-
+		adapter.add(new ListCellData(this, "接收和发送短信,拍照和选择照片", new Intent(this, AtySMS.class)));
+		adapter.add(new ListCellData(this, "拍照和选择照片", new Intent(this, AtyTakePhoto.class)));
+		adapter.add(new ListCellData(this, "播放音乐", new Intent(this, AtyMediaPlayer.class)));
+		adapter.add(new ListCellData(this, "在子线程中更新UI", new Intent(this, AtyRunnble.class)));
+		adapter.add(new ListCellData(this, "服务相关", new Intent(this, AtyService.class)));
+		adapter.add(new ListCellData(this, "网络技术", new Intent(this, AtyTestHttp.class)));
 		// adapter.add(new ListCellData(this, "侧滑页", new Intent(this,
 		// PageSlideAty.class)));
 	}

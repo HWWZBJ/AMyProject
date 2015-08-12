@@ -5,13 +5,16 @@
     android:versionName="1.0">
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="16"
         android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -21,6 +24,7 @@
         <provider
             android:name=".cp.DatabaseProvider"
             android:authorities="com.myproject.cp.DatabaseProvider">
+
         </provider>
 
         <activity
@@ -33,65 +37,68 @@
         </activity>
         <activity
             android:name=".ui.CustomViewAty"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.RobotViewAty"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.ClockViewAty"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.PageSlideAty"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.CountdownTimerAty"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.HorizontalGridView"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.AtyBlurEffect"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.AtyRotatePic"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.AtyCircleWave"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.AtyButterfly"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.AtyToggleView"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.AtyOutputStream"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.AtyContactTest"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.AtyNotification"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AtySMS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AtyTakePhoto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AtyMediaPlayer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AtyRunnble"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AtyService"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AtyTestHttp"
+            android:screenOrientation="portrait" />
+        <service android:name=".server.MyService" />
+        <service android:name=".server.MyIntentService" />
+        <service android:name=".server.LongRunningService" />
+        <receiver android:name=".receiver.AlarmReceiver" />
     </application>
 
 </manifest>
