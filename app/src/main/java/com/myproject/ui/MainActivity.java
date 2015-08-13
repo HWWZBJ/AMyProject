@@ -35,6 +35,9 @@ public class MainActivity extends ListActivity {
 		adapter.add(new ListCellData(this, "在子线程中更新UI", new Intent(this, AtyRunnble.class)));
 		adapter.add(new ListCellData(this, "服务相关", new Intent(this, AtyService.class)));
 		adapter.add(new ListCellData(this, "网络技术", new Intent(this, AtyTestHttp.class)));
+		adapter.add(new ListCellData(this, "网络请求", new Intent(this, AtyNetworkTest.class)));
+		adapter.add(new ListCellData(this, "定位服务", new Intent(this, AtyLocationTest.class)));
+		adapter.add(new ListCellData(this, "百度地图", new Intent(this, AtyBaiduMap.class)));
 		// adapter.add(new ListCellData(this, "侧滑页", new Intent(this,
 		// PageSlideAty.class)));
 	}
