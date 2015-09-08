@@ -7,7 +7,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.myproject.R;
-import com.myproject.app.AtyNormal;
+import com.myproject.base.AtyNormal;
 
 import java.util.ArrayList;
 import java.util.List;

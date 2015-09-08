@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class MainActivity extends ListActivity {
+public class AtyMain extends ListActivity {
 	private ArrayAdapter<ListCellData> adapter = null;
 
 	@Override
@@ -15,6 +15,7 @@ public class MainActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		adapter = new ArrayAdapter<ListCellData>(this, android.R.layout.simple_list_item_1);
 		setListAdapter(adapter);
+		adapter.add(new ListCellData(this, "分类", new Intent(this, AtyExpandlistView.class)));
 		adapter.add(new ListCellData(this, "拖动图标", new Intent(this, RobotViewAty.class)));
 		adapter.add(new ListCellData(this, "自定义画图", new Intent(this, CustomViewAty.class)));
 		adapter.add(new ListCellData(this, "自定义表", new Intent(this, ClockViewAty.class)));
@@ -38,6 +39,9 @@ public class MainActivity extends ListActivity {
 		adapter.add(new ListCellData(this, "网络请求", new Intent(this, AtyNetworkTest.class)));
 		adapter.add(new ListCellData(this, "定位服务", new Intent(this, AtyLocationTest.class)));
 		adapter.add(new ListCellData(this, "百度地图", new Intent(this, AtyBaiduMap.class)));
+		adapter.add(new ListCellData(this, "简易光照探测器", new Intent(this, AtyLigthSensor.class)));
+		adapter.add(new ListCellData(this, "加速度传感器", new Intent(this, AtyAccelerometerSensor.class)));
+		adapter.add(new ListCellData(this, "简易指南针", new Intent(this, AtyCompass.class)));
 		// adapter.add(new ListCellData(this, "侧滑页", new Intent(this,
 		// PageSlideAty.class)));
 	}

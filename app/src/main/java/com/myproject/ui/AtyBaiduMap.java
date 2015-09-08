@@ -2,25 +2,24 @@ package com.myproject.ui;
 
 import android.os.Bundle;
 
-import com.baidu.mapapi.SDKInitializer;
+import com.baidu.lbsapi.BMapManager;
 import com.baidu.mapapi.map.MapView;
-import com.baidu.nplatform.comapi.basestruct.GeoPoint;
 import com.myproject.R;
-import com.myproject.app.AtyNormal;
+import com.myproject.base.AtyNormal;
 
 /**
  * Created by Administrator on 2015/8/13.
  * Used for
  */
 public class AtyBaiduMap extends AtyNormal {
+    private BMapManager mapManager;
     private MapView mapView = null;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        SDKInitializer.initialize(getApplicationContext());
+        mapManager = new BMapManager(getApplicationContext());
         setContentView(R.layout.aty_baidumap);
         mapView = (MapView) findViewById(R.id.map_view);
-        GeoPoint point=new GeoPoint((int)(39.915*1E6),(int)(116.404*1E6));
     }
 
     @Override

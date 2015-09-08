@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.myproject.R;
-import com.myproject.app.AtyNormal;
+import com.myproject.base.AtyNormal;
 
 import java.io.File;
 import java.io.IOException;

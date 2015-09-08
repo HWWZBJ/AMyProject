@@ -7,7 +7,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import com.myproject.R;
-import com.myproject.app.AtyNormal;
+import com.myproject.base.AtyNormal;
 
 /**
  * Created by Administrator on 2015/8/12.

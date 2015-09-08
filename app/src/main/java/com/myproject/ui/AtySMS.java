@@ -21,7 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.myproject.R;
-import com.myproject.app.AtyNormal;
+import com.myproject.base.AtyNormal;
 
 import java.io.File;
 import java.io.FileNotFoundException;

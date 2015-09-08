@@ -18,16 +18,17 @@
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
-    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
     <application
+        android:name=".app.MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -40,14 +41,18 @@
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="XvQztDuUUROqxa0A00dVQBKL" />
+
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".main.AtyLanuncher"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.AtyMain"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.CustomViewAty"
             android:screenOrientation="portrait" />
@@ -117,9 +122,26 @@
         <activity
             android:name=".ui.AtyBaiduMap"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AtyLigthSensor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AtyAccelerometerSensor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AtyCompass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AtyExpandlistView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AtyGestureRecognise"
+            android:screenOrientation="portrait" />
+
         <service android:name=".server.MyService" />
         <service android:name=".server.MyIntentService" />
         <service android:name=".server.LongRunningService" />
+
         <receiver android:name=".receiver.AlarmReceiver" />
     </application>
 

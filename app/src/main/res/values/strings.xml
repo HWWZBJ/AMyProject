@@ -4,5 +4,6 @@
     <string name="app_name">MyProject</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="copyright">© 2015 hekl</string>
 
 </resources>

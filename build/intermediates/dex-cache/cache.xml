@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="E:\studio_work\studio2\AMyProject\app\libs\IndoorscapeAlbumPlugin.jar"
+        jar="E:\studio_work\studio2\AMyProject\app\libs\BaiduLBS_Android.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="11bbb392074775916fb2d41b609d513d81907852">
-        <dex dex="E:\studio_work\studio2\AMyProject\app\build\intermediates\pre-dexed\debug\IndoorscapeAlbumPlugin-1113e189317a1b3067df36ae0fad085c0d4f3180.jar" />
+        sha1="46dc256e2b6851405536e909d91d488b3431f6bd">
+        <dex dex="E:\studio_work\studio2\AMyProject\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android-042a0c42d521330ad925eb76b611d278e5bb47fa.jar" />
     </item>
     <item
         jar="E:\studio_work\studio2\AMyProject\app\libs\httpmime-4.1.2.jar"
@@ -16,11 +16,18 @@
         <dex dex="E:\studio_work\studio2\AMyProject\app\build\intermediates\pre-dexed\debug\httpmime-4.1.2-7b7ee0d0bd58d825e2a5a23a1d8396812552da6c.jar" />
     </item>
     <item
-        jar="E:\studio_work\studio2\AMyProject\app\libs\BaiduLBS_Android.jar"
+        jar="E:\studio_work\studio2\AMyProject\app\libs\IndoorscapeAlbumPlugin.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="46dc256e2b6851405536e909d91d488b3431f6bd">
-        <dex dex="E:\studio_work\studio2\AMyProject\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android-042a0c42d521330ad925eb76b611d278e5bb47fa.jar" />
+        sha1="11bbb392074775916fb2d41b609d513d81907852">
+        <dex dex="E:\studio_work\studio2\AMyProject\app\build\intermediates\pre-dexed\debug\IndoorscapeAlbumPlugin-1113e189317a1b3067df36ae0fad085c0d4f3180.jar" />
+    </item>
+    <item
+        jar="E:\studio_work\studio2\AMyProject\app\libs\andbase20130716.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="054348907c6159a06c48f6c068d78cd829ec256a">
+        <dex dex="E:\studio_work\studio2\AMyProject\app\build\intermediates\pre-dexed\debug\andbase20130716-2bfe70378fcead9dd938585d5c6462683cbc727c.jar" />
     </item>
 
 </items>

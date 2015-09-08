@@ -13,7 +13,7 @@ import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 
 import com.myproject.R;
-import com.myproject.app.AtyNormal;
+import com.myproject.base.AtyNormal;
 
 public class AtyButterfly extends AtyNormal {
 	private ImageView img_butterfly;

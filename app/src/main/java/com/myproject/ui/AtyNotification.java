@@ -4,7 +4,7 @@ import android.app.NotificationManager;
 import android.os.Bundle;
 
 import com.myproject.R;
-import com.myproject.app.AtyNormal;
+import com.myproject.base.AtyNormal;
 
 /**
  * Created by HEKL on 2015/8/7.

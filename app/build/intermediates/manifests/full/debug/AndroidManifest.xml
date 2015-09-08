@@ -27,6 +27,7 @@
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
     <application
+        android:name="com.myproject.app.MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -41,7 +42,7 @@
             android:value="XvQztDuUUROqxa0A00dVQBKL" />
 
         <activity
-            android:name="com.myproject.ui.MainActivity"
+            android:name="com.myproject.main.AtyLanuncher"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,6 +50,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.myproject.ui.AtyMain"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.myproject.ui.CustomViewAty"
             android:screenOrientation="portrait" />
@@ -117,6 +121,21 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.myproject.ui.AtyBaiduMap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myproject.ui.AtyLigthSensor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myproject.ui.AtyAccelerometerSensor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myproject.ui.AtyCompass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myproject.ui.AtyExpandlistView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.myproject.ui.AtyGestureRecognise"
             android:screenOrientation="portrait" />
 
         <service android:name="com.myproject.server.MyService" />

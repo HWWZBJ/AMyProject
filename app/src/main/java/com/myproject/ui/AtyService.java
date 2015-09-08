@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.myproject.R;
-import com.myproject.app.AtyNormal;
+import com.myproject.base.AtyNormal;
 import com.myproject.server.LongRunningService;
 import com.myproject.server.MyIntentService;
 import com.myproject.server.MyService;

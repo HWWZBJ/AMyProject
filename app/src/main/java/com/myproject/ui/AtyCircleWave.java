@@ -3,7 +3,7 @@ package com.myproject.ui;
 import android.os.Bundle;
 
 import com.myproject.R;
-import com.myproject.app.AtyNormal;
+import com.myproject.base.AtyNormal;
 
 public class AtyCircleWave extends AtyNormal {
 	@Override
